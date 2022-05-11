@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+:root{
+    --blue: rgb(10, 178, 230);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+body{
+    background-color: rgb(149, 219, 241);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    text-transform: capitalize;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 35px;
+}
+#horizontalLine{
+    background-color: var(--blue) ;
+    height: 5px;
+    width: 100px;
+    margin: 10px auto;
+}
+article{
+    width: 500px;
+    margin: 45px auto 0;
+    padding: 15px;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+}
+div.profilePic{
+    position: relative;
+}
+img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -80px;
+    box-shadow: 10px -6px var(--blue);
+}
+span.quotes{
+    display: inline-block;
+    background-color: var(--blue) ;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    left: 166px;
+}
+h4{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+}
+span.title{
+    text-align: center;
+    display: block;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p{
+    margin: 15px auto;
+    width: 85%;
+    text-align: center;
+    color: rgb(70, 67, 67);
+}
+div#navigationArrows{
+    text-align: center;
+}
+div#navigationArrows button{
+    margin: 0 15px;
+    color: var(--blue);
+}
+div#navigationArrows button:hover{
+    cursor: pointer;
+}
+div.btn{
+    text-align: center;
+    margin-top: 10px;
+}
+div.btn button{
+    color: var(--blue);
+    padding: 3px 5px;
+    border: thin solid var(--blue);
+    border-radius: 10px;
+}
+div.btn button:hover{
+    color: #fff;
+    background-color: var(--blue);
+    cursor: pointer;
+}
